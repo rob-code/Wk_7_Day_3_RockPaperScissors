@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codeclan.rockpaperscissorsactivity.GameActivity">
+
+    <Button
+        android:onClick="onRockButtonClicked"
+        android:id="@+id/rock_button"
+        android:hint="Rock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:padding="22dp"
+        android:textSize="30dp"
+        android:text="@string/rock"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:onClick="onPaperButtonClicked"
+        android:id="@+id/paper_button"
+        android:hint="Paper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:padding="22dp"
+        android:textSize="30dp"
+        android:text="@string/paper"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:onClick="onScissorsButtonClicked"
+        android:id="@+id/scissors_button"
+        android:hint="Scissors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:padding="22dp"
+        android:textSize="30dp"
+        android:text="@string/scissors"
+        android:textAllCaps="false"
+        />
+
+
+
+</LinearLayout>
